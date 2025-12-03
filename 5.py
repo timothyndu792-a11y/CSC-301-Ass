@@ -59,9 +59,7 @@ class LinkedList:
         print("None")
 
 
-# -------------------------
-# TESTING THE LINKED LIST
-# -------------------------
+
 
 ll = LinkedList()
 
@@ -79,4 +77,5 @@ ll.display_list()
 ll.delete_node(15)
 
 print("After deleting 15:")
+
 ll.display_list()
